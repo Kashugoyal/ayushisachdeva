@@ -5,71 +5,67 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  font-size: 14px;
 }
 
-.lds-heart {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
-  transform: rotate(45deg);
-  transform-origin: 40px 40px;
-}
-.lds-heart div {
-  top: 32px;
-  left: 32px;
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  background: #fff;
-  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-.lds-heart div:after,
-.lds-heart div:before {
-  content: " ";
-  position: absolute;
-  display: block;
-  width: 32px;
-  height: 32px;
-  background: #fff;
-}
-.lds-heart div:before {
-  left: -24px;
-  border-radius: 50% 0 0 50%;
-}
-.lds-heart div:after {
-  top: -24px;
-  border-radius: 50% 50% 0 0;
-}
-@keyframes lds-heart {
-  0% {
-    transform: scale(0.95);
-  }
-  5% {
-    transform: scale(1.1);
-  }
-  39% {
-    transform: scale(0.85);
-  }
-  45% {
-    transform: scale(1);
-  }
-  60% {
-    transform: scale(0.95);
-  }
-  100% {
-    transform: scale(0.9);
-  }
+.header{
+  text-align: left;
+  margin: 5rem;
+  width: 50%;
+  border-bottom: 1px solid black;
 }
 
+.header h1{
+  font-weight: 100;
+  font-size: 4rem;
+}
 
-.navbar{
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+}
+
+.posts{
   text-align: center;
+  min-width: 300px;
+  
 }
 
-canvas{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
+.card {
+  margin: auto;
+  margin-bottom: 3rem;
+  text-align: center;
+  width: 40vw;
+  padding: 3rem;
+  box-shadow: 0px 0px 5px 1px #ccc;
+}
+
+.card img{
+  width: 100%;
+}
+
+.lkt{
+  width: 40%;
+  height: 100%;
+}
+
+.footer{
+  border-top: 1px solid grey;
+  margin: auto;
+  width: 70%;
+  padding: 2rem;
+  font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 8px;
+  }
+  .card{
+    padding: 0;
+    width: 60vw;
+  }
 }
