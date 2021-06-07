@@ -1,0 +1,53 @@
+{
+    "posts": [
+        {
+            "id": "202105221340",
+            "img_url": "38dd3b02-bc47-4286-aa8d-b5b5a59e445c.jpeg",
+            "date": "10.12.20",
+            "description": "This is a dummy description of the image. The image was taken in s AbC place weraing a xyz.",
+            "links": "",
+            "tags": ""
+        },
+        {
+            "id": "202105221341",
+            "img_url": "33d414e2-ad4f-4cb2-a0f2-c04b7b5a8299.jpeg",
+            "date": "10.12.20",
+            "description": "This is a dummy description of the image. The image was taken in s AbC place weraing a xyz.",
+            "links": "",
+            "tags": ""
+        },
+        {
+            "id": "202105221342",
+            "img_url": "56e33226-f735-4b63-959c-661b84459ee3.jpeg",
+            "date": "10.12.20",
+            "description": "This is a dummy description of the image. The image was taken in s AbC place weraing a xyz.",
+            "links": "",
+            "tags": ""
+        },
+        {
+            "id": "202105221343",
+            "img_url": "667173ae-45dc-402a-826f-e99db004bb09.jpeg",
+            "date": "10.12.20",
+            "description": "This is a dummy description of the image. The image was taken in s AbC place weraing a xyz.",
+            "links": "",
+            "tags": ""
+        },
+        {
+            "id": "202105221344",
+            "img_url": "77a11311-065c-4071-a18b-594f2b8c98b7.jpeg",
+            "date": "10.12.20",
+            "description": "This is a dummy description of the image. The image was taken in s AbC place weraing a xyz.",
+            "links": "",
+            "tags": ""
+        },
+        {
+            "id": "202105221345",
+            "img_url": "9fe0b4f3-79f9-4367-80fc-ef6aef3212dc.jpeg",
+            "date": "10.12.20",
+            "description": "This is a dummy description of the image. The image was taken in s AbC place weraing a xyz.",
+            "links": "",
+            "tags": ""
+        }
+    ]
+
+}
